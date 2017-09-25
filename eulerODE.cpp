@@ -13,11 +13,11 @@
 using namespace std;
 
 double fxy(double, double);
-double EulerMethodODE(double(*)(double, double), double, double, int, double);
+double eulerMethodODE(double(*)(double, double), double, double, int, double);
 
 int main(){
 	double (*pfun)(double, double) = &fxy;
-    cout<< EulerMethodODE(pfun, 0, 5, 1000, 100)<< endl;
+    cout<< eulerMethodODE(pfun, 0, 5, 1000, 100)<< endl;
     return 0;
 }
 
@@ -25,7 +25,7 @@ double fxy(double x, double y){
 	return 0.05 * y;
 }
 
-double EulerMethodODE(double(*fxy)(double x, double y), double x0, double xn, int n, double y0){
+double eulerMethodODE(double(*fxy)(double x, double y), double x0, double xn, int n, double y0){
 	vector <double> y;
 	y.push_back(y0);
 	double h = (xn-x0)/n;
