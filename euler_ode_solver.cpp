@@ -1,6 +1,6 @@
 /**
-		LLVM Compiler Project
-    eulerODE.cpp
+	LLVM Compiler Project
+    euler_ode_solver.cpp
     Purpose: Uses Euler method to approximately solve a simple ODE
 
     @author Abbas Hadizadeh
@@ -11,19 +11,6 @@
 #include <vector>
 
 using namespace std;
-
-double fxy(double, double);
-double eulerMethodODE(double(*)(double, double), double, double, int, double);
-
-int main(){
-	double (*pfun)(double, double) = &fxy;
-    cout<< eulerMethodODE(pfun, 0, 5, 1000, 100)<< endl;
-    return 0;
-}
-
-double fxy(double x, double y){
-	return 0.05 * y;
-}
 
 double eulerMethodODE(double(*fxy)(double x, double y), double x0, double xn, int n, double y0){
 	vector <double> y;
