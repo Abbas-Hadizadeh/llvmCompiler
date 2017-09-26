@@ -1,6 +1,5 @@
 LLVM Compiler Project
-eulerODE.cpp
-Purpose: Uses Euler method to approximately solve a simple ODE
+Purpose: Uses Euler method to approximately solve some ODEs
 
 @author Abbas Hadizadeh
 @version 1.0 9/1/2017

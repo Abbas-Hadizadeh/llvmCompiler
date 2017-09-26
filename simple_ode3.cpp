@@ -1,6 +1,6 @@
 /**
 	LLVM Compiler Project
-    simple_ode1.cpp
+    simple_ode3.cpp
     Purpose: Runs euler_ode_solver on a simple ODE
         ODE: dy/dx = x+y
             0<x<5
