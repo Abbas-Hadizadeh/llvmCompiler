@@ -5,7 +5,7 @@
         ODE: dy/dx = y/20
             0<x<5
             y0=100
-			exact answer: 128.4025
+			exact answer: y(5) = 128.4025
 
     @author Abbas Hadizadeh
     @version 1.0 9/26/2017

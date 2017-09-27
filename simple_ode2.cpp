@@ -5,7 +5,7 @@
         ODE: dy/dx = 2x
             0<x<5
             y0=100
-			exact answer: 125
+			exact answer: y(5) = 125
 
     @author Abbas Hadizadeh
     @version 1.0 9/26/2017
