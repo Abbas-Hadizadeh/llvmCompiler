@@ -25,7 +25,7 @@ double fxy(double, double);
 
 int main(){
 	double (*pfun)(double, double) = &fxy;
-    cout<< eulerMethodODE(pfun, X_BEGINNIG, X_ENDING, TOTAL_POINTS, Y_BEGINNING)<< endl;
+    cout<< euler_methode_ode(pfun, X_BEGINNIG, X_ENDING, TOTAL_POINTS, Y_BEGINNING)<< endl;
     return 0;
 }
 

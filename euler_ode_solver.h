@@ -11,6 +11,6 @@
 #ifndef euler_ode_solver
 #define euler_ode_solver
 
-double eulerMethodODE(double(*)(double, double), double, double, int, double);
+double euler_methode_ode(double(*)(double, double), double, double, int, double);
 
 #endif

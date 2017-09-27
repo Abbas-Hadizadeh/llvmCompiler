@@ -12,7 +12,7 @@
 
 using namespace std;
 
-double eulerMethodODE(double(*fxy)(double x, double y), double x0, double xn, int n, double y0){
+double euler_methode_ode(double(*fxy)(double x, double y), double x0, double xn, int n, double y0){
 	vector <double> y;
 	y.push_back(y0);
 	double h = (xn-x0)/n;
